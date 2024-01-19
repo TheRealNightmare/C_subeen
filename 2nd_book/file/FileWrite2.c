@@ -6,10 +6,8 @@ int main(){
     fprintf(fl,"Hello everyone, ");
     fprintf(fl,"This is an automated file.\n");
     fclose(fl);
-    
     fl = fopen(filename,"w");
     fprintf(fl,"rewritting the file\n");
     fclose(fl);
-
     return 0;
 }
